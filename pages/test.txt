@@ -1,0 +1,4072 @@
+﻿<html><head><title>Каталог</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link href="/css/rootstyles.css" rel="stylesheet" type="text/css" media="screen">
+<style>
+	 .getinfo_combo {
+		 cursor:pointer;
+		 border-bottom:1px dashed blue;
+	 }
+</style>
+<script type="text/javascript">
+	function getinfo_combo(v){
+		var xhr = new XMLHttpRequest();
+		xhr.open("POST", "win.php", true);
+		xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+		xhr.send("ax=combo_hist&pph_primary="+v);
+		xhr.onreadystatechange = function (){ 
+			if(xhr.readyState == 4){ 
+				var span = document.getElementById("getinfo_combo_"+v);
+				span.innerHTML=xhr.responseText;
+			} 
+		} 
+	}
+</script>
+</head>
+<body text="black" bottommargin="0" vlink="#0000cc" alink="#3366cc" link="#0000cc" bgcolor="white" leftmargin="0" topmargin="0" rightmargin="0" marginwidth="0" onload="this.focus()">
+<center>[274824] A4Tech Bloody G501</center><br><br>
+<center><a href="?t=274824&amp;sort=price">цена</a> <a href="?t=274824&amp;sort=count">количество</a> <a href="?t=274824&amp;sort=all">все</a></center>
+<!--center><h5 style="color:red">Все цены указаны в рублях по курсу</h5></center-->
+<table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#F0F0F0" class="medium" align="center">
+  <tbody><tr bgcolor="#FFFFFF" class="boldheader">
+   <!--<td width="100" align="center">Действие</td>-->
+   <td align="center">Пользователь</td>
+   <td width="100" align="center">Дата</td>
+   <td align="center">количество</td>      	<td align="center">реальная</td>
+	<td align="center">входная</td>
+	   <td align="center">розница</td>
+   <td align="center">корп.</td>
+      <td align="center">Поставщик</td>   
+  </tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">15.01.2019  21:34:24</td>
+    <td align="center">+12 (1+1)</td>    	    <td align="center">2481</td>    
+    <td align="center">2501</td>
+	    <td align="center">2670</td>
+    <td align="center">0</td>
+        <td align="center">ПМ ИНН 7703733741<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=3482&amp;action=naklad&amp;number=962165&amp;3349212160514091" target="_blank">190115/0000137</a> (Ад(,Ав,Ба,Ва,Вд,Гд,Гз,Ги,Га,Гв,Дв,Ие,Кд,Кн,Км,Км,Ка(,Ка,Ка,Ка,Лв,Мм,Ма,Мз,Па,Па,Рд,Сн,Сс,Са,СЯ,Сн,Тг,Тс,Кю(,Уд,Ха,Эи,Ра) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Н2</td>  
+    <td align="center">15.01.2019  19:00:26</td>
+    <td align="center">1 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">0</td>
+	    <td align="center">2670</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>smark | https://market.yandex.ru/product/10893346/offers?hid=6368403&amp;grhow=shop&amp;how=aprice&amp;deliveryincluded=0 | ЭЛЕКТРОКЛАД | http://electroklad.ru/product_77496.html</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">14.01.2019  14:25:37</td>
+    <td align="center">3 (0+0)</td>    	    <td align="center">2571</td>    
+    <td align="center">2620</td>
+	    <td align="center">2690</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 17.01</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Гранов Иван (1179)</td>  
+    <td align="center">11.01.2019  14:00:43</td>
+    <td align="center">0 (4+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2620</td>
+	    <td align="center">2690</td>
+    <td align="center">0</td>
+        <td align="center">ПМ ИНН 7703733741<br><i>Снижение входа на -0.5% по накладной: 190110/00033</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">11.01.2019  13:01:26</td>
+    <td align="center">+2 (2+0)</td>    	    <td align="center">2571</td>    
+    <td align="center">2613</td>
+	    <td align="center">2690</td>
+    <td align="center">0</td>
+        <td align="center">ПМ ИНН 7703733741<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=3482&amp;action=naklad&amp;number=960095&amp;4056312160544243" target="_blank">190110/00033</a> (Ад(,Ав,Ба,Ва,Вд,Гд,Гз,Ги,Га,Гв,Дв,Ие,Кд,Кн,Км,Км,Ка(,Ка,Ка,Ка,Лв,Мм,Ма,Мз,Па,Па,Рд,Сн,Сс,Са,СЯ,Сн,Тг,Тс,Кю(,Уд,Ха,Эи,Ра) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">11.01.2019  12:44:23</td>
+    <td align="center">+1 (1+0)</td>    	    <td align="center">2857</td>    
+    <td align="center">2654</td>
+	    <td align="center">2690</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=960093&amp;3404592160821040" target="_blank">190110/0082</a> (Ка,Ка(,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Кю(,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд,Тс,Ие,Км,Сн,Эи,Сн,Гв,Ав,Сс,Мм,Тг,Ра,Кс) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Н2</td>  
+    <td align="center">11.01.2019  02:27:02</td>
+    <td align="center">1 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">0</td>
+	    <td align="center">2690</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>smark  pora | https://market.yandex.ru/product/10893346/offers?hid=6368403&amp;grhow=shop&amp;how=aprice&amp;deliveryincluded=0 | www.Pleer.ru | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">09.01.2019  15:28:23</td>
+    <td align="center">0 (0+1)</td>    	    <td align="center">2450</td>    
+    <td align="center">2450</td>
+	    <td align="center">2659</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 10.01</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Суслова Ольга</td>  
+    <td align="center">09.01.2019  15:05:29</td>
+    <td align="center">0 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2450</td>
+	    <td align="center">2659</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">09.01.2019  15:02:17</td>
+    <td align="center">0 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2450</td>
+	    <td align="center">2697</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">09.01.2019  15:02:05</td>
+    <td align="center">0 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2450</td>
+	    <td align="center">2659</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">09.01.2019  14:55:36</td>
+    <td align="center">0 (0+1)</td>    	    <td align="center">2450</td>    
+    <td align="center">2450</td>
+	    <td align="center">2698</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 10.01</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Попков Максим</td>  
+    <td align="center">05.01.2019  15:44:29</td>
+    <td align="center">2 (0+4)</td>    	    <td align="center">0</td>    
+    <td align="center">2450</td>
+	    <td align="center">2698</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Н2</td>  
+    <td align="center">04.01.2019  13:46:40</td>
+    <td align="center">5 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">0</td>
+	    <td align="center">2659</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>smark  pora | https://market.yandex.ru/product/10893346/offers?hid=6368403&amp;grhow=shop&amp;how=aprice&amp;deliveryincluded=0 | www.Pleer.ru | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Кулик Валентина</td>  
+    <td align="center">30.12.2018  00:35:48</td>
+    <td align="center">17 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2450</td>
+	    <td align="center">2567</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Н2</td>  
+    <td align="center">29.12.2018  00:57:01</td>
+    <td align="center">20 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">0</td>
+	    <td align="center">2784</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>smark  pora | https://market.yandex.ru/product/10893346/offers?hid=6368403&amp;grhow=shop&amp;how=aprice&amp;deliveryincluded=0 | ЭЛЕКТРОКЛАД | http://electroklad.ru/product_77496.html</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Н2</td>  
+    <td align="center">28.12.2018  20:22:00</td>
+    <td align="center">20 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">0</td>
+	    <td align="center">2759</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>pep http://www.imperiatechno.ru/Kompyyuternye_garnitury/a4tech/A4tech_Bloody_G501.html</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Кулик Валентина</td>  
+    <td align="center">27.12.2018  00:21:46</td>
+    <td align="center">25 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2450</td>
+	    <td align="center">2537</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Батищев Александр</td>  
+    <td align="center">26.12.2018  23:10:47</td>
+    <td align="center">+25 (0+0)</td>    	    <td align="center">2450</td>    
+    <td align="center">2450</td>
+	    <td align="center">2639</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=955977&amp;8318832160987081" target="_blank">26122018/11</a> (Св,Тс,Вд,Ка,Рд,Га,Кю(,Ад(,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па,Тг,Ги,Гд,Ба,Км,Сн,СЯ,Мз,Гв,Кд,Ра) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Т1</td>  
+    <td align="center">26.12.2018  04:33:26</td>
+    <td align="center">0 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2461</td>
+	    <td align="center">2639</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>+4%</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">25.12.2018  18:43:04</td>
+    <td align="center">0 (0+0)</td>    	    <td align="center">2461</td>    
+    <td align="center">2461</td>
+	    <td align="center">2537</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 28.12</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Кулик Валентина</td>  
+    <td align="center">21.12.2018  08:04:00</td>
+    <td align="center">0 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2461</td>
+	    <td align="center">2537</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">20.12.2018  16:50:34</td>
+    <td align="center">0 (0+0)</td>    	    <td align="center">2461</td>    
+    <td align="center">2461</td>
+	    <td align="center">2640</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 25.12</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Т1</td>  
+    <td align="center">20.12.2018  05:33:12</td>
+    <td align="center">0 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2461</td>
+	    <td align="center">2640</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>+4%</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Н2</td>  
+    <td align="center">18.12.2018  07:24:54</td>
+    <td align="center">1 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">0</td>
+	    <td align="center">2538</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>pep https://tech-guide.ru/multimedia-equipment-audio/headphones-microphones-headsets/1366179_a4_g501_cherno_krasnye_naushniki_s_mikrofonom_2_2m.html</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Н2</td>  
+    <td align="center">14.12.2018  07:20:35</td>
+    <td align="center">10 (0+2)</td>    	    <td align="center">0</td>    
+    <td align="center">0</td>
+	    <td align="center">2545</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>pep https://tech-guide.ru/multimedia-equipment-audio/headphones-microphones-headsets/1366179_a4_g501_cherno_krasnye_naushniki_s_mikrofonom_2_2m.html</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Н2</td>  
+    <td align="center">13.12.2018  08:59:35</td>
+    <td align="center">12 (0+3)</td>    	    <td align="center">0</td>    
+    <td align="center">0</td>
+	    <td align="center">2545</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>pep https://tech-guide.ru/multimedia-equipment-audio/headphones-microphones-headsets/1366179_a4_g501_cherno_krasnye_naushniki_s_mikrofonom_2_2m.html</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Н2</td>  
+    <td align="center">13.12.2018  04:47:02</td>
+    <td align="center">12 (0+3)</td>    	    <td align="center">0</td>    
+    <td align="center">0</td>
+	    <td align="center">2552</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>pep https://tech-guide.ru/multimedia-equipment-audio/headphones-microphones-headsets/1366179_a4_g501_cherno_krasnye_naushniki_s_mikrofonom_2_2m.html</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Батищев Александр</td>  
+    <td align="center">12.12.2018  03:30:59</td>
+    <td align="center">16 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2461</td>
+	    <td align="center">2558</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">11.12.2018  23:03:07</td>
+    <td align="center">+16 (0+0)</td>    	    <td align="center">2461</td>    
+    <td align="center">2461</td>
+	    <td align="center">2554</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=944946&amp;7326022160578586" target="_blank">11122018/6</a> (Св,Тс,Вд,Ка,Рд,Га,Кю(,Ад(,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па,Тг,Ги,Гд,Ба,Км,Сн,СЯ,Мз,Гв,Кд,Ра) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Н2</td>  
+    <td align="center">08.12.2018  08:31:00</td>
+    <td align="center">1 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">0</td>
+	    <td align="center">2554</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>pep https://tech-guide.ru/multimedia-equipment-audio/headphones-microphones-headsets/1366179_a4_g501_cherno_krasnye_naushniki_s_mikrofonom_2_2m.html</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">07.12.2018  17:32:52</td>
+    <td align="center">1 (0+0)</td>    	    <td align="center">2493</td>    
+    <td align="center">2405</td>
+	    <td align="center">2560</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 12.12</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Балицкий Евгений</td>  
+    <td align="center">07.12.2018  12:43:15</td>
+    <td align="center">1 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2405</td>
+	    <td align="center">2560</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Макарова  Анна Васильевна</td>  
+    <td align="center">07.12.2018  12:03:05</td>
+    <td align="center">0+0=&gt;1</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"><br><i>Н-пересорт</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">30.11.2018  15:59:54</td>
+    <td align="center">5 (0+1)</td>    	    <td align="center">2493</td>    
+    <td align="center">2405</td>
+	    <td align="center">2555</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 01.12</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Сухих Виктор</td>  
+    <td align="center">30.11.2018  13:31:41</td>
+    <td align="center">6 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2405</td>
+	    <td align="center">2555</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Котиков Сергей</td>  
+    <td align="center">27.11.2018  14:26:03</td>
+    <td align="center">7 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2405</td>
+	    <td align="center">2547</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Шестопалова Мария</td>  
+    <td align="center">26.11.2018  13:03:03</td>
+    <td align="center">+1 (7+1)</td>    	    <td align="center">2405</td>    
+    <td align="center">2405</td>
+	    <td align="center">2541</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>284620231118-s // курьер s // Причина:  Марьин Дмитрий Возврат от курьера: 0 по телефону. клиент перезакажет товар.
+Доронин Кирилл Вячеславович
+с 26/11/2018</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">23.11.2018  19:37:49</td>
+    <td align="center">+3 (9+1)</td>    	    <td align="center">2493</td>    
+    <td align="center">2405</td>
+	    <td align="center">2529</td>
+    <td align="center">0</td>
+        <td align="center">Ситикомп / ВсеБуки / Форакс на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1949&amp;action=naklad&amp;number=934557&amp;6955062160533046" target="_blank">23112018/2</a> (Ка,Св,Кю(,Тс,Ба,Сс,Ав,Кд,Рд,Км,Лв,Па,Гз,Па,Ка,Мз,Дв,СЯ,Тг,Ха,Вд,Ги,Мм,Км,Ка,Ие,Ра,Кс) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">22.11.2018  20:57:05</td>
+    <td align="center">10 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2378</td>
+	    <td align="center">2550</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Гранов Иван (1179)</td>  
+    <td align="center">22.11.2018  20:56:48</td>
+    <td align="center">0 (10+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2378</td>
+	    <td align="center">2521</td>
+    <td align="center">0</td>
+        <td align="center">Мерлион /Гримбор/Беркс<br><i>Снижение входа на 10.5% по накладной: БС750619/VF910230</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">22.11.2018  20:40:49</td>
+    <td align="center">+10 (0+0)</td>    	    <td align="center">2656</td>    
+    <td align="center">2656</td>
+	    <td align="center">2521</td>
+    <td align="center">0</td>
+        <td align="center">Мерлион /Гримбор/Беркс<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=133&amp;action=naklad&amp;number=933815&amp;4622912160808157" target="_blank">БС750619/VF910230</a> (Ка(,Щк,Мм,Тс,Юи,Рд,Кн,Св,Га,Ка,Уд,Ба,Гз,Вд,Тг,Ха,Сн,Ад(,Ма,Ка,Км,Ка,Са,Па,Рд,Мз,Ва,Гд,Ка,Ие,Лв,Па,Ги,Км,Эи,Сн,Ав,Кд,Кю(,Ма,Ра) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Козловский Андрей (1156)</td>  
+    <td align="center">21.11.2018  15:47:06</td>
+    <td align="center">0 (0+1)</td>    	    <td align="center">2410</td>    
+    <td align="center">2438</td>
+	    <td align="center">2521</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 22.11</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Н2</td>  
+    <td align="center">20.11.2018  20:33:25</td>
+    <td align="center">1 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">0</td>
+	    <td align="center">2554</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>pep https://tech-guide.ru/multimedia-equipment-audio/headphones-microphones-headsets/1366179_a4_g501_cherno_krasnye_naushniki_s_mikrofonom_2_2m.html</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Телепченков Владимир</td>  
+    <td align="center">19.11.2018  18:13:39</td>
+    <td align="center">0 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2438</td>
+	    <td align="center">2560</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Белова Татьяна</td>  
+    <td align="center">19.11.2018  17:38:52</td>
+    <td align="center">+1 (0+0)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Н2</td>  
+    <td align="center">16.11.2018  10:05:49</td>
+    <td align="center">3 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">0</td>
+	    <td align="center">2600</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>pep https://becompact.ru/tovary/garnitura-a4tech-bloody-g501/</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Н2</td>  
+    <td align="center">16.11.2018  00:37:03</td>
+    <td align="center">4 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">0</td>
+	    <td align="center">2620</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>pep https://tech-guide.ru/multimedia-equipment-audio/headphones-microphones-headsets/1366179_a4_g501_cherno_krasnye_naushniki_s_mikrofonom_2_2m.html</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Суслова Ольга</td>  
+    <td align="center">07.11.2018  21:03:39</td>
+    <td align="center">13 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2438</td>
+	    <td align="center">2553</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">07.11.2018  20:43:28</td>
+    <td align="center">+9 (4+0)</td>    	    <td align="center">2410</td>    
+    <td align="center">2438</td>
+	    <td align="center">2546</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=924845&amp;5546232160819370" target="_blank">07112018/3</a> (Св,Тс,Вд,Ка,Рд,Га,Кю(,Ад(,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па,Тг,Ги,Гд,Ба,Км,Сн,СЯ,Мз,Гв,Кд,Ра) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">07.11.2018  20:04:46</td>
+    <td align="center">+1 (3+0)</td>    	    <td align="center">2642</td>    
+    <td align="center">2502</td>
+	    <td align="center">2546</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=924644&amp;9325292160479794" target="_blank">1113193</a> (Ка,Ка(,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Кю(,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд,Тс,Ие,Км,Сн,Эи,Сн,Гв,Ав,Сс,Мм,Тг,Ра) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">06.11.2018  15:20:12</td>
+    <td align="center">4 (0+0)</td>    	    <td align="center">2651</td>    
+    <td align="center">2455</td>
+	    <td align="center">2546</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 09.11</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">06.11.2018  15:00:56</td>
+    <td align="center">4 (0+0)</td>    	    <td align="center">2651</td>    
+    <td align="center">2455</td>
+	    <td align="center">2546</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 09.11</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Белорус Илья</td>  
+    <td align="center">03.11.2018  13:21:37</td>
+    <td align="center">4 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2455</td>
+	    <td align="center">2546</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Звягинцев Данила</td>  
+    <td align="center">31.10.2018  15:57:48</td>
+    <td align="center">5 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2455</td>
+	    <td align="center">2566</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Суслова Ольга</td>  
+    <td align="center">23.10.2018  23:27:09</td>
+    <td align="center">14 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2455</td>
+	    <td align="center">2548</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">23.10.2018  21:10:43</td>
+    <td align="center">+1 (13+0)</td>    	    <td align="center">2651</td>    
+    <td align="center">2455</td>
+	    <td align="center">2609</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=917152&amp;6671022160978650" target="_blank">1108758</a> (Ка,Ка(,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Кю(,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд,Тс,Ие,Км,Сн,Эи,Сн,Гв,Ав,Сс,Мм,Тг,Ра) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">23.10.2018  20:46:32</td>
+    <td align="center">+9 (4+0)</td>    	    <td align="center">2429</td>    
+    <td align="center">2440</td>
+	    <td align="center">2609</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=917109&amp;1296442160587136" target="_blank">23102018</a> (Св,Тс,Вд,Ка,Рд,Га,Кю(,Ад(,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па,Тг,Ги,Гд,Ба,Км,Сн,СЯ,Мз,Гв,Кд,Ра) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">22.10.2018  14:58:36</td>
+    <td align="center">4 (0+2)</td>    	    <td align="center">2672</td>    
+    <td align="center">2464</td>
+	    <td align="center">2629</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 25.10</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">22.10.2018  14:27:09</td>
+    <td align="center">4 (0+2)</td>    	    <td align="center">2672</td>    
+    <td align="center">2464</td>
+	    <td align="center">2629</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 25.10</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Т1</td>  
+    <td align="center">22.10.2018  09:09:00</td>
+    <td align="center">6 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2464</td>
+	    <td align="center">2650</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>+4%</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">16.10.2018  20:54:37</td>
+    <td align="center">+1 (10+0)</td>    	    <td align="center">2672</td>    
+    <td align="center">2464</td>
+	    <td align="center">2679</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=912919&amp;5763962160973794" target="_blank">1106740</a> (Ка,Ка(,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Кю(,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд,Тс,Ие,Км,Сн,Эи,Сн,Гв,Ав,Сс,Мм,Тг,Ра) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">16.10.2018  20:52:07</td>
+    <td align="center">+6 (4+0)</td>    	    <td align="center">2418</td>    
+    <td align="center">2443</td>
+	    <td align="center">2679</td>
+    <td align="center">0</td>
+        <td align="center">ПМ ИНН 7703733741<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=3482&amp;action=naklad&amp;number=912928&amp;8435362160406251" target="_blank">1106742</a> (Ад(,Ав,Ба,Ва,Вд,Гд,Гз,Ги,Га,Гв,Дв,Ие,Кд,Кн,Км,Км,Ка(,Ка,Ка,Ка,Лв,Мм,Ма,Мз,Па,Па,Рд,Сн,Сс,Са,СЯ,Сн,Тг,Тс,Кю(,Уд,Ха,Эи,Ра) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Т1</td>  
+    <td align="center">16.10.2018  04:13:26</td>
+    <td align="center">4 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2480</td>
+	    <td align="center">2681</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>+3%</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">15.10.2018  15:00:05</td>
+    <td align="center">4 (0+1)</td>    	    <td align="center">2712</td>    
+    <td align="center">2480</td>
+	    <td align="center">2622</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 17.10</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">15.10.2018  14:59:05</td>
+    <td align="center">4 (0+1)</td>    	    <td align="center">2712</td>    
+    <td align="center">2480</td>
+	    <td align="center">2622</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 17.10</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Норов Тимур</td>  
+    <td align="center">10.10.2018  20:27:23</td>
+    <td align="center">+1 (7+1)</td>    	    <td align="center">2712</td>    
+    <td align="center">2480</td>
+	    <td align="center">2565</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=909761&amp;3014962160601607" target="_blank">1105120</a> (Ка,Ка(,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Кю(,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд,Тс,Ие,Км,Сн,Эи,Сн,Гв,Ав,Сс,Мм,Тг) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Батищев Александр</td>  
+    <td align="center">09.10.2018  18:37:29</td>
+    <td align="center">+4 (3+1)</td>    	    <td align="center">2460</td>    
+    <td align="center">2451</td>
+	    <td align="center">2565</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=908727&amp;4198872160412526" target="_blank">09102018/6</a> (Св,Тс,Вд,Ка,Рд,Га,Кю(,Ад(,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па,Тг,Ги,Гд,Ба,Км,Сн,СЯ,Мз,Гв,Кд) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">09.10.2018  12:55:24</td>
+    <td align="center">3 (0+1)</td>    	    <td align="center">2408</td>    
+    <td align="center">2441</td>
+	    <td align="center">2565</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 11.10</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">08.10.2018  16:58:29</td>
+    <td align="center">4 (0+1)</td>    	    <td align="center">2408</td>    
+    <td align="center">2441</td>
+	    <td align="center">2565</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 11.10</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">04.10.2018  18:05:11</td>
+    <td align="center">+7 (3+0)</td>    	    <td align="center">2408</td>    
+    <td align="center">2441</td>
+	    <td align="center">2565</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=906417&amp;1347522160643697" target="_blank">04102018/7</a> (Св,Тс,Вд,Ка,Рд,Га,Кю(,Ад(,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па,Тг,Ги,Гд,Ба,Км,Сн,СЯ,Мз,Гв,Кд) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Пономарёв Дмитрий</td>  
+    <td align="center">04.10.2018  17:24:20</td>
+    <td align="center">+1 (2+0)</td>    	    <td align="center">2642</td>    
+    <td align="center">2516</td>
+	    <td align="center">2565</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=906331&amp;8155072160429272" target="_blank">1103547</a> (Ка,Ка(,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Кю(,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд,Тс,Ие,Км,Сн,Эи,Сн,Гв,Ав,Сс,Мм,Тг) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">03.10.2018  15:12:47</td>
+    <td align="center">1 (0+1)</td>    	    <td align="center">2453</td>    
+    <td align="center">2453</td>
+	    <td align="center">2565</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 08.10</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">03.10.2018  15:01:23</td>
+    <td align="center">1 (0+1)</td>    	    <td align="center">2453</td>    
+    <td align="center">2453</td>
+	    <td align="center">2565</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 08.10</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">03.10.2018  14:47:21</td>
+    <td align="center">1 (0+1)</td>    	    <td align="center">2453</td>    
+    <td align="center">2453</td>
+	    <td align="center">2565</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 08.10</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">26.09.2018  21:00:31</td>
+    <td align="center">+6 (0+0)</td>    	    <td align="center">2453</td>    
+    <td align="center">2453</td>
+	    <td align="center">2631</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=902350&amp;1879412160155967" target="_blank">26092018/12</a> (Св,Тс,Вд,Ка,Рд,Га,Кю(,Ад(,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па,Тг,Ги,Гд,Ба,Км,Сн,СЯ,Мз,Гв,Кд) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">25.09.2018  21:03:28</td>
+    <td align="center">1 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2683</td>
+	    <td align="center">2631</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">25.09.2018  20:25:00</td>
+    <td align="center">+1 (0+0)</td>    	    <td align="center">2683</td>    
+    <td align="center">2683</td>
+	    <td align="center">2567</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=901224&amp;2503132160908713" target="_blank">1100703</a> (Ка,Ка(,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Кю(,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд,Тс,Ие,Сн,Км,Сн,Эи,Сн,Гв,Ав,Сс,Мм,Тг) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">24.09.2018  17:07:01</td>
+    <td align="center">0 (0+0)</td>    	    <td align="center">2535</td>    
+    <td align="center">2565</td>
+	    <td align="center">2567</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 26.09</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">24.09.2018  14:50:10</td>
+    <td align="center">0 (0+0)</td>    	    <td align="center">2535</td>    
+    <td align="center">2565</td>
+	    <td align="center">2567</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 26.09</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Каримов Илья</td>  
+    <td align="center">19.09.2018  17:49:42</td>
+    <td align="center">0 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2565</td>
+	    <td align="center">2567</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Гранов Иван (1179)</td>  
+    <td align="center">12.09.2018  10:02:39</td>
+    <td align="center">0 (6+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2565</td>
+	    <td align="center">2565</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Снижение входа на -0.5% по накладной: 10092018/7</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">10.09.2018  20:48:54</td>
+    <td align="center">+7 (1+0)</td>    	    <td align="center">2535</td>    
+    <td align="center">2553</td>
+	    <td align="center">2691</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=893620&amp;1430482160871804" target="_blank">10092018/7</a> (Св,Тс,Вд,Ка,Рд,Га,Кю(,Ад(,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па,Тг,Ги,Гд,Ба,Км,Сн,СЯ,Мз,Гв,Кд) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">10.09.2018  20:38:23</td>
+    <td align="center">+1 (0+0)</td>    	    <td align="center">2680</td>    
+    <td align="center">2680</td>
+	    <td align="center">2691</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=893235&amp;4873002160727443" target="_blank">1096417</a> (Ка,Ка(,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Кю(,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд,Тс,Ие,Сн,Км,Сн,Эи,Сн,Гв,Ав,Сс,Мм,Тг) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">07.09.2018  14:56:09</td>
+    <td align="center">0 (0+0)</td>    	    <td align="center">2503</td>    
+    <td align="center">2446</td>
+	    <td align="center">2691</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 11.09</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">07.09.2018  13:16:40</td>
+    <td align="center">0 (0+0)</td>    	    <td align="center">2503</td>    
+    <td align="center">2446</td>
+	    <td align="center">2691</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 11.09</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Каримов Илья</td>  
+    <td align="center">07.09.2018  09:08:37</td>
+    <td align="center">0 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2446</td>
+	    <td align="center">2691</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Гранов Иван (1179)</td>  
+    <td align="center">03.09.2018  10:34:03</td>
+    <td align="center">0 (3+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2446</td>
+	    <td align="center">2589</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Снижение входа на -0.5% по накладной: 29082018</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Пономарёв Дмитрий</td>  
+    <td align="center">29.08.2018  18:41:19</td>
+    <td align="center">+5 (8+0)</td>    	    <td align="center">2503</td>    
+    <td align="center">2433</td>
+	    <td align="center">2619</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=888129&amp;4048502160838481" target="_blank">29082018</a> (Св,Тс,Вд,Ка,Рд,Га,Тю(,Ад(,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па,Тг,Ги,Гд,Ба,Км,Сн,СЯ,Мз,Гв,Кд) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">27.08.2018  15:30:01</td>
+    <td align="center">9 (0+0)</td>    	    <td align="center">2452</td>    
+    <td align="center">2389</td>
+	    <td align="center">2589</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 29.08</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Гранов Иван (1179)</td>  
+    <td align="center">27.08.2018  09:20:34</td>
+    <td align="center">0 (9+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2389</td>
+	    <td align="center">2590</td>
+    <td align="center">0</td>
+        <td align="center">ПМ ИНН 7703733741<br><i>Снижение входа на -0.5% по накладной: 1092051</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Норов Тимур</td>  
+    <td align="center">23.08.2018  17:32:13</td>
+    <td align="center">+5 (7+0)</td>    	    <td align="center">2452</td>    
+    <td align="center">2382</td>
+	    <td align="center">2586</td>
+    <td align="center">0</td>
+        <td align="center">ПМ ИНН 7703733741<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=3482&amp;action=naklad&amp;number=885218&amp;5356002160848363" target="_blank">1092051</a> (Ад(,Ав,Ба,Ва,Вд,Гд,Гз,Ги,Га,Гв,Дв,Ие,Кд,Кн,Км,Км,Ка(,Ка,Ка,Ка,Лв,Мм,Ма,Мз,Па,Па,Рд,Сн,Сс,Са,СЯ,Сн,Сн,Тг,Тс,Тю(,Уд,Ха,Эи) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Пономарёв Дмитрий</td>  
+    <td align="center">23.08.2018  09:13:34</td>
+    <td align="center">7 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2332</td>
+	    <td align="center">2609</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">22.08.2018  19:31:48</td>
+    <td align="center">7 (0+0)</td>    	    <td align="center">2287</td>    
+    <td align="center">2332</td>
+	    <td align="center">2619</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 24.08</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">22.08.2018  13:56:32</td>
+    <td align="center">7 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2332</td>
+	    <td align="center">2619</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Балицкий Евгений</td>  
+    <td align="center">16.08.2018  15:12:45</td>
+    <td align="center">14 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2332</td>
+	    <td align="center">2538</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">25.07.2018  22:59:33</td>
+    <td align="center">35 (0+0)</td>    	    <td align="center">2287</td>    
+    <td align="center">2332</td>
+	    <td align="center">2499</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 28.07</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Гранов Иван (1179)</td>  
+    <td align="center">19.07.2018  09:23:40</td>
+    <td align="center">0 (39+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2332</td>
+	    <td align="center">2439</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Снижение входа на -0.5% по накладной: 13072018/4</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">13.07.2018  19:53:13</td>
+    <td align="center">+10 (34+1)</td>    	    <td align="center">2287</td>    
+    <td align="center">2329</td>
+	    <td align="center">2460</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=867134&amp;6578522160468130" target="_blank">13072018/4</a> (Св,Тс,Вд,Ка,Рд,Га,Тю(,Ад(,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па,Тг,Ги,Гд,Ба,Км,Сн,СЯ,Мз,Гв,Кд) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Петрова  Светлана</td>  
+    <td align="center">13.07.2018  11:09:28</td>
+    <td align="center">+1 (33+1)</td>    	    <td align="center">2329</td>    
+    <td align="center">2341</td>
+	    <td align="center">2460</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>153719120718-s // курьер s // Причина: Бенгард Елена 0 по смс Андреев Николай Васильевич
+с 13/07/2018</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Гранов Иван (1179)</td>  
+    <td align="center">13.07.2018  09:27:09</td>
+    <td align="center">0 (33+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2341</td>
+	    <td align="center">2460</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Снижение входа на -0.5% по накладной: 09072018/7</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">12.07.2018  12:04:42</td>
+    <td align="center">34 (0+1)</td>    	    <td align="center">2329</td>    
+    <td align="center">2329</td>
+	    <td align="center">2479</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>Дата прихода 15.07</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">09.07.2018  19:48:18</td>
+    <td align="center">+40 (0+0)</td>    	    <td align="center">2329</td>    
+    <td align="center">2329</td>
+	    <td align="center">2509</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=864649&amp;3281572160324955" target="_blank">09072018/7</a> (Св,Тс,Вд,Ка,Рд,Га,Тю(,Ад(,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па,Тг,Ги,Гд,Ба,Км,Сн,СЯ,Мз,Гв,Кд) | </i></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Белова Татьяна</td>  
+    <td align="center">04.07.2018  16:18:12</td>
+    <td align="center">+1 (5+1)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Каримов Илья</td>  
+    <td align="center">02.07.2018  13:58:45</td>
+    <td align="center">10 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2311</td>
+	    <td align="center">2469</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">30.06.2018  15:54:35</td>
+    <td align="center">13 (0+10)</td>    	    <td align="center">0</td>    
+    <td align="center">2311</td>
+	    <td align="center">2469</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Гранов Иван (1179)</td>  
+    <td align="center">28.06.2018  11:31:06</td>
+    <td align="center">0 (28+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2311</td>
+	    <td align="center">2371</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Снижение входа на -1% по накладной: 22062018/11</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Петрова  Светлана</td>  
+    <td align="center">27.06.2018  13:29:16</td>
+    <td align="center">+1 (27+0)</td>    	    <td align="center">2283</td>    
+    <td align="center">2302</td>
+	    <td align="center">2383</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>345716210618-s // курьер s // Причина: Марьин Дмитрий 1 клиента нет на месте. не дозвон. Альман
+Дмитрий
+с 27/06/2018</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Ляпин Игорь</td>  
+    <td align="center">22.06.2018  22:52:34</td>
+    <td align="center">+10 (21+1)</td>    	    <td align="center">2343</td>    
+    <td align="center">2302</td>
+	    <td align="center">2519</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=857214&amp;4467812160346691" target="_blank">22062018/11</a> (Св,Тс,Вд,Ка,Рд,Га,Тю,Ад(,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па,Тг,Ги,Гд,Ба,Км,Сн,СЯ,Мз,Гв,Кд) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Каримов Илья</td>  
+    <td align="center">22.06.2018  13:12:49</td>
+    <td align="center">21 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2283</td>
+	    <td align="center">2508</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">22.06.2018  10:07:31</td>
+    <td align="center">21 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2283</td>
+	    <td align="center">2818</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Звягинцев Данила</td>  
+    <td align="center">21.06.2018  15:20:50</td>
+    <td align="center">22 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2283</td>
+	    <td align="center">2209</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">21.06.2018  15:16:57</td>
+    <td align="center">22 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2283</td>
+	    <td align="center">2508</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Каримов Илья</td>  
+    <td align="center">18.06.2018  15:55:33</td>
+    <td align="center">30 (0+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2283</td>
+	    <td align="center">2375</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Гранов Иван (1179)</td>  
+    <td align="center">13.06.2018  13:52:56</td>
+    <td align="center">0 (38+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2283</td>
+	    <td align="center">2479</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Снижение входа на -1% по накладной: 09062018/1</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">09.06.2018  21:37:32</td>
+    <td align="center">+4 (36+0)</td>    	    <td align="center">2276</td>    
+    <td align="center">2280</td>
+	    <td align="center">2384</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=850956&amp;8009812160912066" target="_blank">09062018/1</a> (Св,Тс,Вд,Ка,Рд,Га,Тю,Ад(,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па,Тг,Ги,Гд,Ба,Км,Сн,СЯ,Мз,Гв,Кд) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Белорус Илья</td>  
+    <td align="center">02.06.2018  08:05:13</td>
+    <td align="center">46 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2280</td>
+	    <td align="center">2385</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Балицкий Евгений</td>  
+    <td align="center">30.05.2018  20:28:26</td>
+    <td align="center">51 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2280</td>
+	    <td align="center">2479</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Кормилицин Павел</td>  
+    <td align="center">30.05.2018  09:42:54</td>
+    <td align="center">54 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2280</td>
+	    <td align="center">2199</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Каримов Илья</td>  
+    <td align="center">24.05.2018  20:02:14</td>
+    <td align="center">60 (0+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2280</td>
+	    <td align="center">2323</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Н2</td>  
+    <td align="center">17.05.2018  01:41:31</td>
+    <td align="center">72 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2280</td>
+	    <td align="center">2363</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Н2</td>  
+    <td align="center">17.05.2018  01:41:06</td>
+    <td align="center">72 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2280</td>
+	    <td align="center">2364</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Н2</td>  
+    <td align="center">17.05.2018  01:40:59</td>
+    <td align="center">72 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2280</td>
+	    <td align="center">2365</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Н2</td>  
+    <td align="center">17.05.2018  01:39:43</td>
+    <td align="center">72 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2280</td>
+	    <td align="center">2365</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Н2</td>  
+    <td align="center">17.05.2018  00:09:06</td>
+    <td align="center">72 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2280</td>
+	    <td align="center">2462</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">АЛЕКСЕЙ Ш</td>  
+    <td align="center">16.05.2018  19:58:04</td>
+    <td align="center">72 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2280</td>
+	    <td align="center">2363</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Ермакова Елена</td>  
+    <td align="center">15.05.2018  11:27:55</td>
+    <td align="center">+1 (72+0)</td>    	    <td align="center">2280</td>    
+    <td align="center">2280</td>
+	    <td align="center">2452</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>334602140518-s // курьер s // Причина:  Фролова Кристина 0 по смс.Сдобнов Евгений
+с 15/05/2018</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Гранов Иван (1179)</td>  
+    <td align="center">03.05.2018  15:11:22</td>
+    <td align="center">0 (84+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2280</td>
+	    <td align="center">2383</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Снижение входа на -1% по накладной: 25042018/3</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">25.04.2018  19:39:58</td>
+    <td align="center">+60 (29+1)</td>    	    <td align="center">2264</td>    
+    <td align="center">2263</td>
+	    <td align="center">2343</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=828812&amp;3204852160644517" target="_blank">25042018/3</a> (Св,Тс,Вд,Ка,Рд,Га,Тю,Ад,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па,Тг,Ги,Гд,Ба,Км,Сн,СЯ,Мз,Гв,Кд) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Каримов Илья</td>  
+    <td align="center">23.04.2018  11:43:53</td>
+    <td align="center">32 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2260</td>
+	    <td align="center">2399</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">21.04.2018  09:32:21</td>
+    <td align="center">38 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2260</td>
+	    <td align="center">2393</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Каримов Илья</td>  
+    <td align="center">17.04.2018  12:42:31</td>
+    <td align="center">42 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2260</td>
+	    <td align="center">2519</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">16.04.2018  20:57:43</td>
+    <td align="center">15 (0+27)</td>    	    <td align="center">0</td>    
+    <td align="center">2260</td>
+	    <td align="center">2528</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Норов Тимур</td>  
+    <td align="center">16.04.2018  20:15:09</td>
+    <td align="center">+10 (5+27)</td>    	    <td align="center">2438</td>    
+    <td align="center">2260</td>
+	    <td align="center">2537</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=823805&amp;3183182160510870" target="_blank">1064138</a> (Ка,Ка,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Тю,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд,Тс,Ие,Сн,Км,Сн,Эи,Сн,Гв,Ав,Сс) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">АксЁнов Дмитрий (1157)</td>  
+    <td align="center">11.04.2018  17:24:21</td>
+    <td align="center">41 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2205</td>
+	    <td align="center">2548</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">11.04.2018  13:42:18</td>
+    <td align="center">41 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2205</td>
+	    <td align="center">2489</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Каримов Илья</td>  
+    <td align="center">06.04.2018  16:18:48</td>
+    <td align="center">48 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2205</td>
+	    <td align="center">2398</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Балицкий Евгений</td>  
+    <td align="center">05.04.2018  16:58:42</td>
+    <td align="center">49 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2205</td>
+	    <td align="center">2435</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Петрова  Светлана</td>  
+    <td align="center">03.04.2018  12:20:02</td>
+    <td align="center">+1 (62+2)</td>    	    <td align="center">2205</td>    
+    <td align="center">2205</td>
+	    <td align="center">2403</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>152113010418-s // курьер s // Причина: Кузнецов Илья: 0 по телефону.Титов Денис
+с 03/04/2018</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Каримов Илья</td>  
+    <td align="center">02.04.2018  12:54:54</td>
+    <td align="center">69 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2205</td>
+	    <td align="center">2427</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Кормилицин Павел</td>  
+    <td align="center">02.04.2018  10:42:11</td>
+    <td align="center">70 (0+3)</td>    	    <td align="center">0</td>    
+    <td align="center">2205</td>
+	    <td align="center">2478</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Кормилицин Павел</td>  
+    <td align="center">02.04.2018  10:42:07</td>
+    <td align="center">70 (0+3)</td>    	    <td align="center">0</td>    
+    <td align="center">2205</td>
+	    <td align="center">2489</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>изменение РРЦ 0 р.</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Алутин Андрей</td>  
+    <td align="center">01.04.2018  09:12:19</td>
+    <td align="center">+1 (74+0)</td>    	    <td align="center">2205</td>    
+    <td align="center">2205</td>
+	    <td align="center">2322</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>131120300318-t // курьер // Причина:  Марьин Дмитрий: 1 не понравились тех. характеристики. ошибка
+выбора. Коротков Игорь
+с 01/04/2018</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Пономарёв Дмитрий</td>  
+    <td align="center">23.03.2018  17:13:27</td>
+    <td align="center">+1 (88+2)</td>    	    <td align="center">2410</td>    
+    <td align="center">2205</td>
+	    <td align="center">2391</td>
+    <td align="center">0</td>
+        <td align="center">ОЛДИ/Феникс Плюс / Олди-Ф  / СТЭЙТЕН  <br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=313&amp;action=naklad&amp;number=810677&amp;2461252160627094" target="_blank">РкФ-00000014131</a> (Щк,Рд,Тг,Ка,Гз,Га,Ра,Тс,Нв,Па,Км,Ка,Сн,Са,Ха,Рд,Ба,Ва,Кд,Ка,Ви,Ие,Ав,Гд,Па,Лв,Ги,Км,Ма,Сн,Гв) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Гранов Иван (1179)</td>  
+    <td align="center">23.03.2018  16:47:22</td>
+    <td align="center">0 (88+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2202</td>
+	    <td align="center">2391</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Снижение входа на 6% по накладной: 23032018/3</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Пономарёв Дмитрий</td>  
+    <td align="center">23.03.2018  16:41:33</td>
+    <td align="center">+35 (53+2)</td>    	    <td align="center">2410</td>    
+    <td align="center">2258</td>
+	    <td align="center">2391</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1571&amp;action=naklad&amp;number=810676&amp;8122862160269766" target="_blank">23032018/3</a> (Кн,Ка,Св,Тс,Ра,Га,Гз,Нв,Па,Тю,Км,Ка,Сн,Са,Ха,Тг,Ка,Рд,Вд,Ба,Ка,Сн,Ви,Ка,Ав,Па,Лв,Км,Кд,Ма,Ва,Гв) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">АЛЕКСЕЙ Ш</td>  
+    <td align="center">23.03.2018  15:07:47</td>
+    <td align="center">53 (0+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2161</td>
+	    <td align="center">2391</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">АЛЕКСЕЙ Ш</td>  
+    <td align="center">22.03.2018  23:35:59</td>
+    <td align="center">55 (0+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2161</td>
+	    <td align="center">2403</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">АЛЕКСЕЙ Ш</td>  
+    <td align="center">21.03.2018  22:31:35</td>
+    <td align="center">57 (0+3)</td>    	    <td align="center">0</td>    
+    <td align="center">2161</td>
+	    <td align="center">2415</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">АЛЕКСЕЙ Ш</td>  
+    <td align="center">21.03.2018  18:09:31</td>
+    <td align="center">58 (0+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2161</td>
+	    <td align="center">2443</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Каримов Илья</td>  
+    <td align="center">19.03.2018  11:26:30</td>
+    <td align="center">64 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2161</td>
+	    <td align="center">2152</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Алутин Андрей</td>  
+    <td align="center">19.03.2018  08:26:18</td>
+    <td align="center">+1 (63+0)</td>    	    <td align="center">2161</td>    
+    <td align="center">2161</td>
+	    <td align="center">2217</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>70009180318-t // курьер // Причина: Алутин Андрей: 1 отказ на месте не понравился товар Бывшев
+Александр Юрьевич 
+с 19/03/2018
+</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">16.03.2018  20:36:20</td>
+    <td align="center">67 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2161</td>
+	    <td align="center">2271</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">АЛЕКСЕЙ Ш</td>  
+    <td align="center">15.03.2018  22:38:47</td>
+    <td align="center">69 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2161</td>
+	    <td align="center">2249</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Белорус Илья</td>  
+    <td align="center">09.03.2018  22:02:57</td>
+    <td align="center">89 (0+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2161</td>
+	    <td align="center">2209</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">07.03.2018  21:29:48</td>
+    <td align="center">+50 (44+4)</td>    	    <td align="center">2088</td>    
+    <td align="center">2161</td>
+	    <td align="center">2251</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=802767&amp;2707922160627793" target="_blank">07032018/1</a> (Св,Тс,Вд,Ка,Рд,Га,Тю,Ад,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па,Тг,Ги,Гд,Ба,Км,Сн,СЯ,Мз,Гв,Кд) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">07.03.2018  21:01:08</td>
+    <td align="center">+2 (42+4)</td>    	    <td align="center">2313</td>    
+    <td align="center">2236</td>
+	    <td align="center">2251</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=802646&amp;5879282160347622" target="_blank">1056877</a> (Ка,Ка,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Тю,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд,Тс,Ие,Сн,Км,Сн,Эи,Сн,Гв,Ав) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Каримов Илья</td>  
+    <td align="center">07.03.2018  20:54:58</td>
+    <td align="center">42 (0+4)</td>    	    <td align="center">0</td>    
+    <td align="center">2232</td>
+	    <td align="center">2251</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Чермошенцева Кристина</td>  
+    <td align="center">06.03.2018  16:19:00</td>
+    <td align="center">49+0=&gt;48</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"><br><i>учет</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Кулик Валентина</td>  
+    <td align="center">26.02.2018  17:40:52</td>
+    <td align="center">74 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2232</td>
+	    <td align="center">2463</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Пономарёв Дмитрий</td>  
+    <td align="center">26.02.2018  16:55:46</td>
+    <td align="center">+5 (69+1)</td>    	    <td align="center">2442</td>    
+    <td align="center">2232</td>
+	    <td align="center">2348</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=796327&amp;6726492160727130" target="_blank">1054814</a> (Ка,Ка,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Тю,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд,Тс,Ие,Сн,Км,Сн,Эи,Сн,Гв,Ав) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Каримов Илья</td>  
+    <td align="center">26.02.2018  13:00:26</td>
+    <td align="center">70 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2218</td>
+	    <td align="center">2483</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Кормилицин Павел</td>  
+    <td align="center">26.02.2018  08:11:51</td>
+    <td align="center">70 (0+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2218</td>
+	    <td align="center">2474</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Петрова  Светлана</td>  
+    <td align="center">24.02.2018  17:10:29</td>
+    <td align="center">+1 (74+2)</td>    	    <td align="center">2218</td>    
+    <td align="center">2218</td>
+	    <td align="center">2331</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>175419230218-s // курьер s // Причина: Марьин Дмитрий: 0 по телефону. Ткаченко Павел
+с 24/02/2018</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Пономарёв Дмитрий</td>  
+    <td align="center">23.02.2018  18:41:37</td>
+    <td align="center">+37 (42+1)</td>    	    <td align="center">2211</td>    
+    <td align="center">2218</td>
+	    <td align="center">2361</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=795988&amp;2563362160704587" target="_blank">1054630</a> (Ка,Ка,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Тю,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд,Тс,Ие,Сн,Км,Сн,Эи,Сн,Гв,Ав) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Гранов Иван (1179)</td>  
+    <td align="center">23.02.2018  12:35:53</td>
+    <td align="center">0 (45+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2223</td>
+	    <td align="center">2373</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Снижение входа на 7% по накладной: 23022018/1</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">23.02.2018  12:31:08</td>
+    <td align="center">+29 (16+0)</td>    	    <td align="center">2410</td>    
+    <td align="center">2331</td>
+	    <td align="center">2373</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1571&amp;action=naklad&amp;number=795891&amp;5989342160632525" target="_blank">23022018/1</a> (Кн,Ка,Св,Тс,Ра,Га,Гз,Нв,Па,Тю,Км,Ка,Сн,Са,Ха,Тг,Ка,Рд,Вд,Ба,Ка,Сн,Ви,Ка,Ав,Па,Лв,Км,Кд,Ма,Ва,Гв) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Белорус Илья</td>  
+    <td align="center">22.02.2018  14:43:10</td>
+    <td align="center">16 (0+3)</td>    	    <td align="center">0</td>    
+    <td align="center">2189</td>
+	    <td align="center">2397</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Белорус Илья</td>  
+    <td align="center">22.02.2018  14:42:36</td>
+    <td align="center">16 (0+3)</td>    	    <td align="center">0</td>    
+    <td align="center">2189</td>
+	    <td align="center">2489</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">21.02.2018  13:54:32</td>
+    <td align="center">22 (0+5)</td>    	    <td align="center">0</td>    
+    <td align="center">2189</td>
+	    <td align="center">2476</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Каримов Илья</td>  
+    <td align="center">15.02.2018  14:43:19</td>
+    <td align="center">49 (0+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2189</td>
+	    <td align="center">2338</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Толстопятка Кристина</td>  
+    <td align="center">09.02.2018  14:28:04</td>
+    <td align="center">+1 (71+0)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">08.02.2018  19:37:06</td>
+    <td align="center">71 (0+3)</td>    	    <td align="center">0</td>    
+    <td align="center">2189</td>
+	    <td align="center">2414</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Пономарёв Дмитрий</td>  
+    <td align="center">08.02.2018  19:28:09</td>
+    <td align="center">+1 (70+3)</td>    	    <td align="center">2317</td>    
+    <td align="center">2189</td>
+	    <td align="center">2271</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=787450&amp;4320302160892674" target="_blank">1051900</a> (Ка,Ка,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Тю,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд,Тс,Ие,Сн,Км,Сн,Эи,Сн,Гв,Ав) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Пономарёв Дмитрий</td>  
+    <td align="center">08.02.2018  19:07:29</td>
+    <td align="center">+15 (55+3)</td>    	    <td align="center">2109</td>    
+    <td align="center">2187</td>
+	    <td align="center">2271</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=787402&amp;4710062160856520" target="_blank">1051886</a> (Ка,Ка,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Тю,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд,Тс,Ие,Сн,Км,Сн,Эи,Сн,Гв,Ав) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Белорус Илья</td>  
+    <td align="center">07.02.2018  16:59:47</td>
+    <td align="center">57 (0+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2207</td>
+	    <td align="center">2335</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">02.02.2018  20:44:32</td>
+    <td align="center">66 (0+3)</td>    	    <td align="center">0</td>    
+    <td align="center">2207</td>
+	    <td align="center">2469</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">02.02.2018  20:28:20</td>
+    <td align="center">+50 (16+3)</td>    	    <td align="center">2220</td>    
+    <td align="center">2207</td>
+	    <td align="center">2307</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=784037&amp;7410372160128858" target="_blank">1050873</a> (Ка,Ка,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Тю,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд,Тс,Ие,Сн,Км,Сн,Эи,Сн,Гв,Ав) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Шестопалова Мария</td>  
+    <td align="center">02.02.2018  14:18:38</td>
+    <td align="center">+1 (16+2)</td>    	    <td align="center">2172</td>    
+    <td align="center">2172</td>
+	    <td align="center">2398</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>373909010218-s // курьер s // Причина:  Кузнецов Илья Возврат от курьера: 0 по смс .Веретенников Александр
+с 02/02/2018</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Каримов Илья</td>  
+    <td align="center">02.02.2018  12:53:24</td>
+    <td align="center">17 (0+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2172</td>
+	    <td align="center">2398</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">01.02.2018  15:15:12</td>
+    <td align="center">19 (0+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2172</td>
+	    <td align="center">2400</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">01.02.2018  14:03:09</td>
+    <td align="center">19 (0+3)</td>    	    <td align="center">0</td>    
+    <td align="center">2172</td>
+	    <td align="center">2541</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Балицкий Евгений</td>  
+    <td align="center">28.01.2018  15:30:18</td>
+    <td align="center">35 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2172</td>
+	    <td align="center">2421</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Гранов Иван (1179)</td>  
+    <td align="center">27.01.2018  00:03:21</td>
+    <td align="center">0 (36+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2172</td>
+	    <td align="center">2499</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Снижение входа на 7% по накладной: 26012018</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">26.01.2018  20:41:10</td>
+    <td align="center">36 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2240</td>
+	    <td align="center">2499</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">26.01.2018  20:37:29</td>
+    <td align="center">+15 (21+1)</td>    	    <td align="center">2410</td>    
+    <td align="center">2240</td>
+	    <td align="center">2411</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1571&amp;action=naklad&amp;number=780478&amp;3246512160958084" target="_blank">26012018</a> (Кн,Ка,Св,Тс,Ра,Га,Гз,Нв,Па,Тю,Км,Ка,Сн,Са,Ха,Тг,Ка,Рд,Вд,Ба,Ка,Сн,Ви,Ка,Ав,Па,Лв,Км,Кд,Ма,Ва,Гв) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">АЛЕКСЕЙ Ш</td>  
+    <td align="center">26.01.2018  12:19:47</td>
+    <td align="center">22 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2124</td>
+	    <td align="center">2411</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Каримов Илья</td>  
+    <td align="center">25.01.2018  12:35:57</td>
+    <td align="center">21 (0+12)</td>    	    <td align="center">0</td>    
+    <td align="center">2124</td>
+	    <td align="center">2421</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">25.01.2018  10:24:32</td>
+    <td align="center">33 (0+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2124</td>
+	    <td align="center">2500</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">АЛЕКСЕЙ Ш</td>  
+    <td align="center">24.01.2018  20:21:14</td>
+    <td align="center">35 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2124</td>
+	    <td align="center">2343</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">24.01.2018  15:10:58</td>
+    <td align="center">+15 (20+2)</td>    	    <td align="center">2087</td>    
+    <td align="center">2124</td>
+	    <td align="center">2442</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=778738&amp;3427022160660321" target="_blank">1049161</a> (Ка,Ка,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Тю,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд,Тс,Ие,Сн,Км,Сн,Эи,Сн,Гв,Ав) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">24.01.2018  14:53:30</td>
+    <td align="center">+1 (19+2)</td>    	    <td align="center">2293</td>    
+    <td align="center">2150</td>
+	    <td align="center">2442</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=778746&amp;3047752160143683" target="_blank">1049155</a> (Ка,Ка,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Тю,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд,Тс,Ие,Сн,Км,Сн,Эи,Сн,Гв,Ав) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Шило Александр</td>  
+    <td align="center">24.01.2018  13:29:06</td>
+    <td align="center">20 (0+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2143</td>
+	    <td align="center">2442</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Пономарёв Дмитрий</td>  
+    <td align="center">23.01.2018  17:58:30</td>
+    <td align="center">22 (0+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2143</td>
+	    <td align="center">2022</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">23.01.2018  16:43:39</td>
+    <td align="center">22 (0+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2143</td>
+	    <td align="center">2319</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">23.01.2018  16:43:25</td>
+    <td align="center">22 (0+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2143</td>
+	    <td align="center">2113</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">АЛЕКСЕЙ Ш</td>  
+    <td align="center">23.01.2018  13:49:42</td>
+    <td align="center">22 (0+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2143</td>
+	    <td align="center">2113</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">АЛЕКСЕЙ Ш</td>  
+    <td align="center">23.01.2018  13:49:36</td>
+    <td align="center">22 (0+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2143</td>
+	    <td align="center">2122</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">АЛЕКСЕЙ Ш</td>  
+    <td align="center">23.01.2018  13:49:07</td>
+    <td align="center">22 (0+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2143</td>
+	    <td align="center">2031</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">23.01.2018  13:17:38</td>
+    <td align="center">22 (0+2)</td>    	    <td align="center">0</td>    
+    <td align="center">2143</td>
+	    <td align="center">2113</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Балицкий Евгений</td>  
+    <td align="center">21.01.2018  08:48:29</td>
+    <td align="center">25 (0+3)</td>    	    <td align="center">0</td>    
+    <td align="center">2143</td>
+	    <td align="center">2243</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Шестопалова Мария</td>  
+    <td align="center">20.01.2018  17:08:26</td>
+    <td align="center">+1 (27+0)</td>    	    <td align="center">2143</td>    
+    <td align="center">2143</td>
+	    <td align="center">2249</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>311818180118-t // курьер // Причина:  Бенгард Елена Возврат от курьера: 0 не дозвон русанова елена
+с 20/01/2018</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Каримов Илья</td>  
+    <td align="center">19.01.2018  14:48:27</td>
+    <td align="center">29 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2143</td>
+	    <td align="center">2249</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">19.01.2018  05:51:11</td>
+    <td align="center">26 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2143</td>
+	    <td align="center">2251</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">19.01.2018  02:22:20</td>
+    <td align="center">26 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2143</td>
+	    <td align="center">2239</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">18.01.2018  22:57:03</td>
+    <td align="center">26 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2143</td>
+	    <td align="center">2245</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">18.01.2018  19:27:21</td>
+    <td align="center">26 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2143</td>
+	    <td align="center">2122</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Старенков Максим</td>  
+    <td align="center">18.01.2018  15:13:52</td>
+    <td align="center">27 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2143</td>
+	    <td align="center">2251</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">17.01.2018  21:52:30</td>
+    <td align="center">28 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2143</td>
+	    <td align="center">2237</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">16.01.2018  23:30:10</td>
+    <td align="center">38 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2143</td>
+	    <td align="center">2242</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">16.01.2018  20:04:31</td>
+    <td align="center">38 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2143</td>
+	    <td align="center">2330</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Норов Тимур</td>  
+    <td align="center">16.01.2018  19:34:20</td>
+    <td align="center">+15 (23+0)</td>    	    <td align="center">2073</td>    
+    <td align="center">2143</td>
+	    <td align="center">2242</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=774535&amp;5723882160514149" target="_blank">16012018/4</a> (Св,Тс,Вд,Ка,Рд,Га,Тю,Ад,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па,Тг,Ги,Гд,Ба,Км,Сн,СЯ,Мз,Гв) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">16.01.2018  18:15:31</td>
+    <td align="center">22 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2189</td>
+	    <td align="center">2242</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">16.01.2018  02:28:40</td>
+    <td align="center">23 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2189</td>
+	    <td align="center">2239</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">16.01.2018  00:41:09</td>
+    <td align="center">23 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2189</td>
+	    <td align="center">2251</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">15.01.2018  23:01:23</td>
+    <td align="center">23 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2189</td>
+	    <td align="center">2245</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">14.01.2018  23:50:55</td>
+    <td align="center">24 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2189</td>
+	    <td align="center">2271</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">14.01.2018  18:22:12</td>
+    <td align="center">24 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2189</td>
+	    <td align="center">2221</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">14.01.2018  11:03:22</td>
+    <td align="center">25 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2189</td>
+	    <td align="center">2227</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">14.01.2018  03:48:23</td>
+    <td align="center">27 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2189</td>
+	    <td align="center">2234</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">13.01.2018  22:23:48</td>
+    <td align="center">27 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2189</td>
+	    <td align="center">2241</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">13.01.2018  15:17:39</td>
+    <td align="center">29 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2189</td>
+	    <td align="center">2247</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">13.01.2018  10:01:28</td>
+    <td align="center">29 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2189</td>
+	    <td align="center">2254</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">13.01.2018  06:31:21</td>
+    <td align="center">30 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2189</td>
+	    <td align="center">2261</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">13.01.2018  01:16:16</td>
+    <td align="center">30 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2189</td>
+	    <td align="center">2267</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">12.01.2018  20:09:51</td>
+    <td align="center">30 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2189</td>
+	    <td align="center">2358</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">12.01.2018  18:23:52</td>
+    <td align="center">30 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2189</td>
+	    <td align="center">2349</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">12.01.2018  03:37:12</td>
+    <td align="center">33 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2189</td>
+	    <td align="center">2286</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">11.01.2018  22:00:57</td>
+    <td align="center">+20 (13+1)</td>    	    <td align="center">2102</td>    
+    <td align="center">2189</td>
+	    <td align="center">2292</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=772629&amp;6770902160779595" target="_blank">1046924</a> (Ка,Ка,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Тю,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд,Тс,Ие,Сн,Км,Сн,Эи,Сн,Гв,Ав) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">11.01.2018  21:50:39</td>
+    <td align="center">13 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2292</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">11.01.2018  20:58:26</td>
+    <td align="center">+3 (10+1)</td>    	    <td align="center">2310</td>    
+    <td align="center">2312</td>
+	    <td align="center">2330</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=772592&amp;9139082160812104" target="_blank">1046923</a> (Ка,Ка,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Тю,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд,Тс,Ие,Сн,Км,Сн,Эи,Сн,Гв,Ав) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">11.01.2018  19:57:53</td>
+    <td align="center">10 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2330</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">10.01.2018  19:29:35</td>
+    <td align="center">11 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2309</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">09.01.2018  19:07:40</td>
+    <td align="center">16 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2331</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">09.01.2018  12:06:39</td>
+    <td align="center">15 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2342</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">09.01.2018  05:40:43</td>
+    <td align="center">17 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2361</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">08.01.2018  22:16:14</td>
+    <td align="center">17 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2345</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">08.01.2018  17:45:20</td>
+    <td align="center">17 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2351</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">08.01.2018  06:07:15</td>
+    <td align="center">24 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2366</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">07.01.2018  23:32:41</td>
+    <td align="center">24 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2372</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">07.01.2018  21:52:19</td>
+    <td align="center">24 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2374</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">07.01.2018  18:34:26</td>
+    <td align="center">24 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2381</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">07.01.2018  15:19:25</td>
+    <td align="center">24 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2392</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">07.01.2018  05:43:34</td>
+    <td align="center">24 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2389</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">06.01.2018  21:50:23</td>
+    <td align="center">24 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2449</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">06.01.2018  02:41:56</td>
+    <td align="center">26 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2433</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">04.01.2018  21:30:25</td>
+    <td align="center">28 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2433</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Суханков Алексей</td>  
+    <td align="center">02.01.2018  14:10:08</td>
+    <td align="center">36 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2433</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Суханков Алексей</td>  
+    <td align="center">30.12.2017  12:09:22</td>
+    <td align="center">44 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2548</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">28.12.2017  20:23:50</td>
+    <td align="center">49 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2497</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">28.12.2017  12:36:02</td>
+    <td align="center">52 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2441</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">28.12.2017  02:52:11</td>
+    <td align="center">54 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2494</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">27.12.2017  15:51:21</td>
+    <td align="center">51 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2501</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">26.12.2017  13:26:19</td>
+    <td align="center">55 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2501</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Каримов Илья</td>  
+    <td align="center">26.12.2017  12:48:29</td>
+    <td align="center">55 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2499</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">25.12.2017  21:12:31</td>
+    <td align="center">59 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2501</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Изменение Б1</td>  
+    <td align="center">25.12.2017  14:45:34</td>
+    <td align="center">62 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2501</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Ермакова Елена</td>  
+    <td align="center">22.12.2017  11:36:33</td>
+    <td align="center">+1 (69+2)</td>    	    <td align="center">2273</td>    
+    <td align="center">2312</td>
+	    <td align="center">2489</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>221615201217-s // курьер s // Причина:  Марьин Дмитрий: 0 не дозвон. Паничев Сергей
+с 22/12/2017</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">21.12.2017  20:59:03</td>
+    <td align="center">70 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2500</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Гранов Иван (1179)</td>  
+    <td align="center">21.12.2017  08:21:09</td>
+    <td align="center">0 (71+7)</td>    	    <td align="center">0</td>    
+    <td align="center">2312</td>
+	    <td align="center">2496</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Снижение входа на 7% по накладной: 20122017/3</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">20.12.2017  20:39:22</td>
+    <td align="center">+70 (2+6)</td>    	    <td align="center">2490</td>    
+    <td align="center">2468</td>
+	    <td align="center">2496</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1571&amp;action=naklad&amp;number=764456&amp;4066902160726194" target="_blank">20122017/3</a> (Кн,Ка,Св,Тс,Ра,Га,Гз,Нв,Па,Тю,Км,Ка,Сн,Са,Ха,Тг,Ка,Рд,Вд,Ба,Ка,Сн,Ви,Ка,Ав,Па,Лв,Км,Кд,Ма,Ва,Гв) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Пономарёв Дмитрий</td>  
+    <td align="center">20.12.2017  14:39:55</td>
+    <td align="center">4 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2273</td>
+	    <td align="center">2499</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Белорус Илья</td>  
+    <td align="center">16.12.2017  12:46:46</td>
+    <td align="center">17 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2273</td>
+	    <td align="center">2498</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Балицкий Евгений</td>  
+    <td align="center">15.12.2017  16:14:12</td>
+    <td align="center">18 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2273</td>
+	    <td align="center">2353</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Балицкий Евгений</td>  
+    <td align="center">14.12.2017  16:13:53</td>
+    <td align="center">19 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2273</td>
+	    <td align="center">2498</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Гранов Иван (1179)</td>  
+    <td align="center">14.12.2017  09:13:55</td>
+    <td align="center">0 (20+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2273</td>
+	    <td align="center">2448</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Снижение входа на 7% по накладной: 13122017/3</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Норов Тимур</td>  
+    <td align="center">13.12.2017  23:34:53</td>
+    <td align="center">20 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2436</td>
+	    <td align="center">2498</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Норов Тимур</td>  
+    <td align="center">13.12.2017  22:52:30</td>
+    <td align="center">+20 (0+1)</td>    	    <td align="center">2450</td>    
+    <td align="center">2436</td>
+	    <td align="center">2448</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1571&amp;action=naklad&amp;number=760929&amp;9707602160566371" target="_blank">13122017/3</a> (Кн,Ка,Св,Тс,Ра,Га,Гз,Нв,Па,Тю,Км,Ка,Сн,Са,Ха,Тг,Ка,Рд,Вд,Ба,Ка,Сн,Ви,Ка,Ав,Па,Лв,Км,Кд,Ма,Ва,Гв) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Каримов Илья</td>  
+    <td align="center">12.12.2017  15:12:41</td>
+    <td align="center">0 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2144</td>
+	    <td align="center">2498</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">12.12.2017  09:21:46</td>
+    <td align="center">0 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2144</td>
+	    <td align="center">2449</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Балицкий Евгений</td>  
+    <td align="center">08.12.2017  21:18:14</td>
+    <td align="center">11 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2144</td>
+	    <td align="center">2223</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Батищев Александр</td>  
+    <td align="center">07.12.2017  02:37:33</td>
+    <td align="center">13 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2144</td>
+	    <td align="center">2426</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Чермошенцева Кристина</td>  
+    <td align="center">05.12.2017  18:34:48</td>
+    <td align="center">13+0=&gt;14</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"><br><i>Н-пересорт</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Алутин Андрей</td>  
+    <td align="center">04.12.2017  09:46:07</td>
+    <td align="center">+1 (13+1)</td>    	    <td align="center">2144</td>    
+    <td align="center">2144</td>
+	    <td align="center">2301</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>191516021217-s // курьер s // Причина: Фролова Кристина: не выдавался Возврат от курьера: 0 отказ.Катышев Максим
+с 03/12/2017</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Петрова  Светлана</td>  
+    <td align="center">02.12.2017  16:48:28</td>
+    <td align="center">+1 (16+1)</td>    	    <td align="center">2144</td>    
+    <td align="center">2144</td>
+	    <td align="center">2239</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>41123291117-s // курьер s // Причина: Марьин Дмитрий 0 не дозвон. Михайличенко Владимир 
+с 02/12/2017</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">29.11.2017  21:27:06</td>
+    <td align="center">+15 (10+0)</td>    	    <td align="center">2130</td>    
+    <td align="center">2144</td>
+	    <td align="center">2192</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=753206&amp;3539882160558688" target="_blank">29112017/6</a> (Св,Тс,Вд,Ка,Рд,Га,Тю,Ад,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па,Тг,Ги,Гд,Ба,Км,Сн,СЯ,Мз,Гв) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Балицкий Евгений</td>  
+    <td align="center">29.11.2017  15:49:38</td>
+    <td align="center">10 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2164</td>
+	    <td align="center">2192</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Батищев Александр</td>  
+    <td align="center">25.11.2017  17:12:28</td>
+    <td align="center">18 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2164</td>
+	    <td align="center">2401</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Батищев Александр</td>  
+    <td align="center">25.11.2017  17:01:28</td>
+    <td align="center">+20 (0+0)</td>    	    <td align="center">2164</td>    
+    <td align="center">2164</td>
+	    <td align="center">2254</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=750943&amp;8028832160915527" target="_blank">25112017</a> (Св,Тс,Вд,Ка,Рд,Га,Тю,Ад,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па,Тг,Ги,Гд,Ба,Км,Сн,СЯ,Мз) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Семенюта Артем</td>  
+    <td align="center">18.11.2017  20:47:33</td>
+    <td align="center">0 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2147</td>
+	    <td align="center">2254</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Телепченков Владимир</td>  
+    <td align="center">14.10.2017  00:07:36</td>
+    <td align="center">8 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2147</td>
+	    <td align="center">2265</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">13.10.2017  21:53:15</td>
+    <td align="center">+5 (3+0)</td>    	    <td align="center">2151</td>    
+    <td align="center">2147</td>
+	    <td align="center">2267</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=730286&amp;2858192160948108" target="_blank">1032741</a> (Ка,Ка,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Тю,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд,Тс,Ие) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Пономарёв Дмитрий</td>  
+    <td align="center">13.10.2017  15:06:32</td>
+    <td align="center">3 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2140</td>
+	    <td align="center">2267</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Пономарёв Дмитрий</td>  
+    <td align="center">13.10.2017  15:06:20</td>
+    <td align="center">3 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2140</td>
+	    <td align="center">2271</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Пономарёв Дмитрий</td>  
+    <td align="center">12.10.2017  12:04:42</td>
+    <td align="center">2 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2140</td>
+	    <td align="center">2382</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Балицкий Евгений</td>  
+    <td align="center">12.10.2017  12:03:37</td>
+    <td align="center">2 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2140</td>
+	    <td align="center">2282</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Телепченков Владимир</td>  
+    <td align="center">10.10.2017  21:15:20</td>
+    <td align="center">+6 (0+0)</td>    	    <td align="center">2139</td>    
+    <td align="center">2140</td>
+	    <td align="center">2291</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=728421&amp;6201142160773643" target="_blank">1031980</a> (Ка,Ка,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Тю,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд,Тс) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Батищев Александр</td>  
+    <td align="center">04.10.2017  22:35:22</td>
+    <td align="center">+1 (0+0)</td>    	    <td align="center">2141</td>    
+    <td align="center">2142</td>
+	    <td align="center">2277</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=725889&amp;5806342160941033" target="_blank">1031094</a> (Ка,Ка,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Тю,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд,Тс) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Телепченков Владимир</td>  
+    <td align="center">25.09.2017  20:23:51</td>
+    <td align="center">+10 (5+0)</td>    	    <td align="center">2370</td>    
+    <td align="center">2271</td>
+	    <td align="center">2195</td>
+    <td align="center">0</td>
+        <td align="center">АЙТИ ПАРТНЕР ООО   ИНН	7729685203 / АЙТИ ПРОЕКТ ИНН 9705055196<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=2754&amp;action=naklad&amp;number=721365&amp;6663172160940529" target="_blank">1029549</a> (Ка,Ка,Рд,Ба,Па,Са,Ка,Км,Гз,Ка,Лв,Тю,Кн,СЯ,Гд,Ва,Мз,Ги,Ха,Па,Кд) | </i></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Бурмистрова Феофания</td>  
+    <td align="center">22.09.2017  18:06:44</td>
+    <td align="center">11+0=&gt;10</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"><br><i>Белова в уценку</i></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Белова Татьяна</td>  
+    <td align="center">22.09.2017  17:23:27</td>
+    <td align="center">+1 (10+0)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Белова Татьяна</td>  
+    <td align="center">18.09.2017  17:31:41</td>
+    <td align="center">+1 (17+2)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Батищев Александр</td>  
+    <td align="center">13.09.2017  22:01:31</td>
+    <td align="center">+30 (0+0)</td>    	    <td align="center">2074</td>    
+    <td align="center">2074</td>
+	    <td align="center">2449</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=716506&amp;7975542160407354" target="_blank">13092017/6</a> (Св,Тс,Вд,Ка,Рд,Га,Тю,Ад,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па,Тг,Ги,Гд) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Гранов Иван (1179)</td>  
+    <td align="center">12.09.2017  09:18:37</td>
+    <td align="center">0 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2264</td>
+	    <td align="center">2449</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Снижение входа на 8% по накладной: 11092017</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Батищев Александр</td>  
+    <td align="center">11.09.2017  20:39:35</td>
+    <td align="center">+1 (0+0)</td>    	    <td align="center">2460</td>    
+    <td align="center">2460</td>
+	    <td align="center">2410</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1571&amp;action=naklad&amp;number=715220&amp;9582772160122205" target="_blank">11092017</a> (Кн,Ка,Св,Тс,Ра,Га,Гз,Нв,Па,Тю,Ад,Км,Ка,Сн,Са,Ха,Тг,Ка,Рд,Вд,Ба,Ка,Сн,Ви,Ка,Ав,Па,Лв) | </i></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Белова Татьяна</td>  
+    <td align="center">25.08.2017  13:09:29</td>
+    <td align="center">-1 (16+0)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Гранов Иван (1179)</td>  
+    <td align="center">09.08.2017  10:18:22</td>
+    <td align="center">0 (36+3)</td>    	    <td align="center">0</td>    
+    <td align="center">2231</td>
+	    <td align="center">2449</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Снижение входа на 8% по накладной: 08082017/7</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">08.08.2017  21:35:59</td>
+    <td align="center">+20 (16+3)</td>    	    <td align="center">2441</td>    
+    <td align="center">2331</td>
+	    <td align="center">2351</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1571&amp;action=naklad&amp;number=700445&amp;3654382160300980" target="_blank">08082017/7</a> (Кн,Ка,Св,Тс,Ра,Га,Гз,Нв,Па,Тю,Ад,Км,Ка,Сн,Са,Ха,Тг,Ка,Рд,Вд,Ба,Ка,Сн,Ви,Ка,Ав,Па,Лв) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Алутин Андрей</td>  
+    <td align="center">08.08.2017  09:58:07</td>
+    <td align="center">+1 (18+2)</td>    	    <td align="center">2215</td>    
+    <td align="center">2215</td>
+	    <td align="center">2351</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>141809070817-s // курьер s // Причина: Фролова Кристина: 1 не устраивают по техническим
+характеристикам.Рыков Сергей
+с 08/08/2017</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">28.07.2017  20:31:09</td>
+    <td align="center">+30 (2+2)</td>    	    <td align="center">2210</td>    
+    <td align="center">2215</td>
+	    <td align="center">2429</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=696237&amp;6714162160559103" target="_blank">28072017/5</a> (Св,Тс,Вд,Ка,Рд,Га,Тю,Ад,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па,Тг) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Гранов Иван (1179)</td>  
+    <td align="center">26.07.2017  14:41:56</td>
+    <td align="center">0 (9+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2245</td>
+	    <td align="center">2423</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Снижение входа на 8% по накладной: 26072017/2</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">26.07.2017  13:36:20</td>
+    <td align="center">+10 (0+0)</td>    	    <td align="center">2440</td>    
+    <td align="center">2440</td>
+	    <td align="center">2269</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1571&amp;action=naklad&amp;number=694506&amp;3335532160243804" target="_blank">26072017/2</a> (Кн,Ка,Св,Тс,Ра,Га,Гз,Нв,Па,Тю,Ад,Км,Ка,Сн,Са,Ха,Тг,Ка,Рд,Вд,Ба,Ка,Сн,Ви,Ка,Ав,Па,Лв) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Гранов Иван (1179)</td>  
+    <td align="center">14.07.2017  19:01:21</td>
+    <td align="center">0 (15+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2132</td>
+	    <td align="center">2340</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Снижение входа на 6% по накладной: 14072017/3</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">14.07.2017  18:26:14</td>
+    <td align="center">+4 (11+1)</td>    	    <td align="center">2237</td>    
+    <td align="center">2165</td>
+	    <td align="center">2340</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1571&amp;action=naklad&amp;number=690147&amp;9621412160899532" target="_blank">14072017/3</a> (Кн,Ка,Св,Тс,Ра,Га,Гз,Нв,Па,Тю,Ад,Км,Ка,Сн,Са,Ха,Тг,Ка,Рд,Вд,Ба,Ка,Сн,Ви,Ка,Ав,Па,Лв) | </i></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Медведева Вероника</td>  
+    <td align="center">29.06.2017  16:38:47</td>
+    <td align="center">-1 (33+0)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">22.06.2017  16:57:58</td>
+    <td align="center">+20 (24+4)</td>    	    <td align="center">2180</td>    
+    <td align="center">2141</td>
+	    <td align="center">2192</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=680559&amp;9122892160876050" target="_blank">22062017</a> (Св,Тс,Вд,Ка,Рд,Га,Тю,Ад,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">07.06.2017  20:41:53</td>
+    <td align="center">+20 (32+2)</td>    	    <td align="center">2123</td>    
+    <td align="center">2114</td>
+	    <td align="center">2228</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=674238&amp;7116372160318979" target="_blank">07062017</a> (Св,Тс,Вд,Ка,Рд,Га,Тю,Ад,Ба,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">01.06.2017  21:16:07</td>
+    <td align="center">+20 (21+0)</td>    	    <td align="center">2143</td>    
+    <td align="center">2108</td>
+	    <td align="center">2211</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=671774&amp;6022452160682397" target="_blank">1062017</a> (Св,Тс,Вд,Ка,Рд,Га,Тю,Ад,Ба,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка,Лв,Па) | </i></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Агапова Кристина</td>  
+    <td align="center">23.05.2017  12:39:16</td>
+    <td align="center">-1 (35+0)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Ермакова Елена</td>  
+    <td align="center">19.05.2017  09:33:12</td>
+    <td align="center">+1 (40+1)</td>    	    <td align="center">2074</td>    
+    <td align="center">2074</td>
+	    <td align="center">2211</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>461918170517-s // курьер s // Причина: Шестопалова Мария0 от оператора. Двирник Валерий
+с 19/05/2017</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Норов Тимур</td>  
+    <td align="center">16.05.2017  20:28:11</td>
+    <td align="center">+10 (34+0)</td>    	    <td align="center">2141</td>    
+    <td align="center">2074</td>
+	    <td align="center">2194</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=664564&amp;7742402160845122" target="_blank">16052017/1</a> (Св,Тс,Вд,Ка,Рд,Га,Тю,Ад,Ба,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка) | </i></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Агапова Кристина</td>  
+    <td align="center">16.05.2017  16:03:26</td>
+    <td align="center">+1 (34+0)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">29.04.2017  14:51:50</td>
+    <td align="center">+20 (51+0)</td>    	    <td align="center">2088</td>    
+    <td align="center">2054</td>
+	    <td align="center">2232</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=660997&amp;2410862160577124" target="_blank">28042017/19</a> (Св,Тс,Вд,Ка,Рд,Га,Тю,Ад,Ба,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Норов Тимур</td>  
+    <td align="center">24.04.2017  19:37:00</td>
+    <td align="center">+30 (31+0)</td>    	    <td align="center">2100</td>    
+    <td align="center">2041</td>
+	    <td align="center">2213</td>
+    <td align="center">0</td>
+        <td align="center">Камертон /  ТТТ ру  / ЭКО-СТАЙЛ / Метатрон на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1879&amp;action=naklad&amp;number=658137&amp;7606492160415794" target="_blank">24042017/1</a> (Св,Тс,Вд,Ка,Рд,Га,Тю,Ад,Ба,Мм,Са,Ие,Ха,Ка,Па,Ва,Ав,Ка) | </i></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Белова Татьяна</td>  
+    <td align="center">18.04.2017  19:05:31</td>
+    <td align="center">-1 (51+0)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Алутин Андрей</td>  
+    <td align="center">12.04.2017  09:59:04</td>
+    <td align="center">+1 (61+1)</td>    	    <td align="center">1984</td>    
+    <td align="center">1984</td>
+	    <td align="center">2186</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>545907110417-t // курьер // Причина: Фролова Кристина: 1 не дозвон.Жуков Алексей Сергеевич
+с 12/04/2017</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Алутин Андрей</td>  
+    <td align="center">12.04.2017  09:59:04</td>
+    <td align="center">+1 (61+1)</td>    	    <td align="center">1984</td>    
+    <td align="center">1984</td>
+	    <td align="center">2186</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>545907110417-t // курьер // Причина: Фролова Кристина: 1 не дозвон.Жуков Алексей Сергеевич
+с 12/04/2017</i></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Толстопятка Кристина</td>  
+    <td align="center">07.04.2017  16:18:13</td>
+    <td align="center">-1 (71+0)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Медведева Вероника</td>  
+    <td align="center">04.04.2017  12:29:15</td>
+    <td align="center">-1 (79+0)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">22.03.2017  15:45:20</td>
+    <td align="center">+9 (102+1)</td>    	    <td align="center">1915</td>    
+    <td align="center">1984</td>
+	    <td align="center">2259</td>
+    <td align="center">0</td>
+        <td align="center">Куду/ Индиго ПРО / Цифровые коммуникации  НА долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1563&amp;action=naklad&amp;number=644402&amp;5252322160380763" target="_blank">22032017</a> (Св,Гз,Вд,Рд,Тю,Кн,Са,Ба,Ка,Па) | </i></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Белова Татьяна</td>  
+    <td align="center">07.03.2017  18:40:56</td>
+    <td align="center">-1 (135+0)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">03.03.2017  14:38:45</td>
+    <td align="center">+100 (43+0)</td>    	    <td align="center">1950</td>    
+    <td align="center">1990</td>
+	    <td align="center">2301</td>
+    <td align="center">0</td>
+        <td align="center">Куду/ Индиго ПРО / Цифровые коммуникации<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=176&amp;action=naklad&amp;number=636688&amp;1894382160994755" target="_blank">186522</a> (Щк,Юи,Гз,Вд,Кн,Мн,Тг,Рд,Ад,Сн,Са,Ба,Ка,Ка,Па) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Алутин Андрей</td>  
+    <td align="center">27.02.2017  18:50:04</td>
+    <td align="center">+1 (47+2)</td>    	    <td align="center">2083</td>    
+    <td align="center">2083</td>
+	    <td align="center">2281</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>70313270217-s // курьер s // Причина: Андрейчук Евгений: 0 не верно закреплен.Тарасов Николай.
+с 27/02/2017</i></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Бурмистрова Феофания</td>  
+    <td align="center">27.02.2017  11:59:51</td>
+    <td align="center">51+0=&gt;50</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"><br><i>Агапова в уценку</i></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Агапова Кристина</td>  
+    <td align="center">23.02.2017  15:03:57</td>
+    <td align="center">+1 (63+2)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Ермакова Елена</td>  
+    <td align="center">21.02.2017  09:55:31</td>
+    <td align="center">+1 (80+5)</td>    	    <td align="center">2083</td>    
+    <td align="center">2083</td>
+	    <td align="center">2155</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>422300200217-s // курьер s // Причина: Фролова Кристина  0 отказ по телефону,нет денег.Воскресенский
+Георгий
+с 21/02/2017</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Балицкий Евгений</td>  
+    <td align="center">09.02.2017  16:22:26</td>
+    <td align="center">+100 (24+0)</td>    	    <td align="center">2050</td>    
+    <td align="center">2083</td>
+	    <td align="center">2288</td>
+    <td align="center">0</td>
+        <td align="center">Куду/ Индиго ПРО / Цифровые коммуникации<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=176&amp;action=naklad&amp;number=628266&amp;3217972160744644" target="_blank">186127</a> (Щк,Юи,Гз,Вд,Кн,Мн,Тг,Рд,Ад,Сн,Са,Ба,Ка,Ка,Па) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Петрова  Светлана</td>  
+    <td align="center">07.02.2017  18:41:16</td>
+    <td align="center">+1 (27+1)</td>    	    <td align="center">2219</td>    
+    <td align="center">2219</td>
+	    <td align="center">2281</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>435218050217-s // курьер s // Причина: Фролова Кристина1 отказ на месте,не верно оформлена
+доставка.Ануфриев Игорь
+с 07/02/2017</i></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Моргун Александра</td>  
+    <td align="center">01.02.2017  18:31:21</td>
+    <td align="center">43+0=&gt;42</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"><br><i>Агапова в уценку</i></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Агапова Кристина</td>  
+    <td align="center">01.02.2017  17:41:36</td>
+    <td align="center">+1 (42+3)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Агапова Кристина</td>  
+    <td align="center">31.01.2017  17:47:56</td>
+    <td align="center">-1 (44+0)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Троценко Владислав</td>  
+    <td align="center">31.01.2017  16:29:30</td>
+    <td align="center">+30 (15+2)</td>    	    <td align="center">2190</td>    
+    <td align="center">2219</td>
+	    <td align="center">2310</td>
+    <td align="center">0</td>
+        <td align="center">Куду/ Индиго ПРО / Цифровые коммуникации<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=176&amp;action=naklad&amp;number=624227&amp;9352852160119352" target="_blank">185858</a> (Щк,Юи,Гз,Вд,Кн,Мн,Тг,Рд,Ад,Сн,Са,Ба,Ка,Ка,Па) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Петрова  Светлана</td>  
+    <td align="center">31.01.2017  13:32:43</td>
+    <td align="center">+1 (14+3)</td>    	    <td align="center">2271</td>    
+    <td align="center">2271</td>
+	    <td align="center">2310</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>332110310117-t // курьер // Причина: Фролова Кристина0 не успевает по времени, повезет другой
+курьер.Мустафокулов Ходжибек
+с 31/01/2017</i></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Толстопятка Кристина</td>  
+    <td align="center">25.01.2017  16:12:08</td>
+    <td align="center">-1 (35+0)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Моргун Александра</td>  
+    <td align="center">19.01.2017  12:15:48</td>
+    <td align="center">54+0=&gt;53</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"><br><i>Толстопятка в уценку</i></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Толстопятка Кристина</td>  
+    <td align="center">18.01.2017  17:06:03</td>
+    <td align="center">+1 (54+0)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Алутин Андрей</td>  
+    <td align="center">10.01.2017  09:55:43</td>
+    <td align="center">+1 (68+7)</td>    	    <td align="center">2271</td>    
+    <td align="center">2271</td>
+	    <td align="center">2476</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>432919060117-s // курьер s // Причина: Шестопалова Мария: 0 перезаказ. Нурматов Дмтрий
+с 10/01/2017</i></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Толстопятка Кристина</td>  
+    <td align="center">09.01.2017  10:29:37</td>
+    <td align="center">-1 (72+0)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Петрова  Светлана</td>  
+    <td align="center">29.12.2016  19:11:29</td>
+    <td align="center">+1 (108+10)</td>    	    <td align="center">2393</td>    
+    <td align="center">2271</td>
+	    <td align="center">2353</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>415123221216-s // курьер s // Причина: Шестопалова Мария 0 уехал.Туреханов Эдуард
+с 29/12/2016</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Петрова  Светлана</td>  
+    <td align="center">29.12.2016  19:11:29</td>
+    <td align="center">+1 (108+10)</td>    	    <td align="center">2393</td>    
+    <td align="center">2271</td>
+	    <td align="center">2353</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>415123221216-s // курьер s // Причина: Шестопалова Мария 0 уехал.Туреханов Эдуард
+с 29/12/2016</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">28.12.2016  17:47:39</td>
+    <td align="center">+100 (18+7)</td>    	    <td align="center">2240</td>    
+    <td align="center">2271</td>
+	    <td align="center">2353</td>
+    <td align="center">0</td>
+        <td align="center">Куду/ Индиго ПРО / Цифровые коммуникации<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=176&amp;action=naklad&amp;number=612955&amp;1519992160893563" target="_blank">185113</a> (Щк,Юи,Гз,Вд,Кн,Мн,Тг,Рд,Ад,Сн,Са,Ба,Ка,Ка) | </i></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Толстопятка Кристина</td>  
+    <td align="center">26.12.2016  16:12:47</td>
+    <td align="center">-1 (28+0)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Гранов Иван (1179)</td>  
+    <td align="center">14.12.2016  14:01:56</td>
+    <td align="center">93 (0+1)</td>    	    <td align="center">0</td>    
+    <td align="center">2393</td>
+	    <td align="center">0</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">14.12.2016  13:47:36</td>
+    <td align="center">+40 (53+1)</td>    	    <td align="center">2531</td>    
+    <td align="center">2432</td>
+	    <td align="center">2353</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1571&amp;action=naklad&amp;number=605362&amp;1304472160406326" target="_blank">14122016/1</a> (Кн,Ка,Св,Тс,Ра,Га,Уд,Гз,Нв,Па,Тю,Ад,Км,Ка,Сн,Са,Ха,Тг,Ка,Рд,Вд,Ба,Ка,Сн,Ви) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Троценко Владислав</td>  
+    <td align="center">13.12.2016  20:25:36</td>
+    <td align="center">+40 (13+2)</td>    	    <td align="center">2336</td>    
+    <td align="center">2358</td>
+	    <td align="center">2353</td>
+    <td align="center">0</td>
+        <td align="center">Куду/ Индиго ПРО / Цифровые коммуникации<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=176&amp;action=naklad&amp;number=605199&amp;1945432160690752" target="_blank">184521</a> (Щк,Юи,Гз,Вд,Кн,Мн,Тг,Рд,Ад,Сн,Са,Ба,Ка,Ка) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Каримов Илья</td>  
+    <td align="center">06.12.2016  15:22:15</td>
+    <td align="center">+25 (3+4)</td>    	    <td align="center">2424</td>    
+    <td align="center">2417</td>
+	    <td align="center">2563</td>
+    <td align="center">0</td>
+        <td align="center">Куду/ Индиго ПРО / Цифровые коммуникации<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=176&amp;action=naklad&amp;number=601477&amp;8543192160416986" target="_blank">184208</a> (Щк,Юи,Гз,Вд,Кн,Мн,Тг,Рд,Ад,Сн,Са,Ба,Ка,Ка) | </i></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Медведева Вероника</td>  
+    <td align="center">05.12.2016  18:38:21</td>
+    <td align="center">-1 (6+0)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">30.11.2016  13:37:57</td>
+    <td align="center">+5 (19+2)</td>    	    <td align="center">2486</td>    
+    <td align="center">2389</td>
+	    <td align="center">2353</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1571&amp;action=naklad&amp;number=598951&amp;8234462160816460" target="_blank">30112016/7</a> (Кн,Ка,Св,Тс,Ра,Га,Уд,Гз,Нв,Па,Тю,Ад,Км,Ка,Сн,Са,Ха,Тг,Ка,Рд,Вд,Ба,Ка,Сн,Ви) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">23.11.2016  19:29:42</td>
+    <td align="center">+20 (19+0)</td>    	    <td align="center">2413</td>    
+    <td align="center">2366</td>
+	    <td align="center">2330</td>
+    <td align="center">0</td>
+        <td align="center">Куду/ Индиго ПРО / Цифровые коммуникации<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=176&amp;action=naklad&amp;number=596104&amp;3165192160735735" target="_blank">183752</a> (Щк,Юи,Гз,Вд,Кн,Мн,Тг,Рд,Ад,Сн,Са,Ба,Ка,Ка) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Петрова  Светлана</td>  
+    <td align="center">19.11.2016  10:33:21</td>
+    <td align="center">+1 (24+1)</td>    	    <td align="center">2315</td>    
+    <td align="center">2315</td>
+	    <td align="center">2388</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>173920171116-s // курьер s // Причина: Андрейчук Евгений 0 отказ по телефону.Паничев Сергей.
+с 19/11/2016</i></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Моргун Александра</td>  
+    <td align="center">17.11.2016  16:42:21</td>
+    <td align="center">23+0=&gt;22</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"><br><i>Медведева в уценку</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Гранов Иван (1179)</td>  
+    <td align="center">16.11.2016  18:53:26</td>
+    <td align="center">29 (0+0)</td>    	    <td align="center">0</td>    
+    <td align="center">2315</td>
+	    <td align="center">0</td>
+    <td align="center">0</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">16.11.2016  16:50:12</td>
+    <td align="center">+20 (9+2)</td>    	    <td align="center">2450</td>    
+    <td align="center">2443</td>
+	    <td align="center">2388</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1571&amp;action=naklad&amp;number=592821&amp;6925102160917045" target="_blank">16112016</a> (Кн,Ка,Св,Тс,Ра,Га,Уд,Гз,Нв,Па,Тю,Ад,Км,Ка,Сн,Са,Ха,Тг,Ка,Рд,Вд,Ба,Ка,Сн,Ви) | </i></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Медведева Вероника</td>  
+    <td align="center">16.11.2016  14:59:11</td>
+    <td align="center">+1 (9+2)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">10.11.2016  21:38:58</td>
+    <td align="center">+20 (5+2)</td>    	    <td align="center">2450</td>    
+    <td align="center">2431</td>
+	    <td align="center">2349</td>
+    <td align="center">0</td>
+        <td align="center">ОЛДИ/Феникс Плюс / Олди-Ф  / СТЭЙТЕН  <br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=313&amp;action=naklad&amp;number=590871&amp;9436032160294756" target="_blank">РкФ-00000046595</a> (Щк,Рд,Тг,Ка,Гз,Га,Уд,Ра,Тс,Нв,Па,Ад,Км,Ка,Сн,Са,Ха,Рд,Ба,Ва,Кд,Ка,Ви) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Кулик Валентина</td>  
+    <td align="center">01.11.2016  21:20:49</td>
+    <td align="center">+10 (18+1)</td>    	    <td align="center">2448</td>    
+    <td align="center">2374</td>
+	    <td align="center">2443</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1571&amp;action=naklad&amp;number=586982&amp;5994432160717844" target="_blank">01112016</a> (Кн,Ка,Св,Тс,Ра,Га,Уд,Гз,Нв,Па,Тю,Ад,Км,Ка,Сн,Са,Ха,Тг,Ка,Рд,Вд,Ба,Ка,Сн,Ви) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Петрова  Светлана</td>  
+    <td align="center">28.10.2016  11:00:42</td>
+    <td align="center">+1 (29+2)</td>    	    <td align="center">2370</td>    
+    <td align="center">2335</td>
+	    <td align="center">2422</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>35411261016-t // курьер // Причина: Шестопалова Мария1 отказ на месте. Кацубо Игорь
+с 28/10/2016</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Дунайский Виталий</td>  
+    <td align="center">26.10.2016  17:52:07</td>
+    <td align="center">+15 (16+1)</td>    	    <td align="center">2295</td>    
+    <td align="center">2335</td>
+	    <td align="center">2421</td>
+    <td align="center">0</td>
+        <td align="center">Киберлайф ИНН 7720763489 на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1865&amp;action=naklad&amp;number=584386&amp;1398782160729419" target="_blank">26102016</a> (Св,Тю,Са,Нв) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Алутин Андрей</td>  
+    <td align="center">20.10.2016  10:49:05</td>
+    <td align="center">+1 (24+3)</td>    	    <td align="center">2370</td>    
+    <td align="center">2370</td>
+	    <td align="center">2470</td>
+    <td align="center">0</td>
+        <td align="center"><br><i>500412191016-s // курьер s // Причина:  Шестопалова Марияа: 0 отказ по телефону. Виноградов Антон
+с 20/10/2016</i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Норов Тимур</td>  
+    <td align="center">18.10.2016  17:42:32</td>
+    <td align="center">+30 (0+1)</td>    	    <td align="center">2368</td>    
+    <td align="center">2370</td>
+	    <td align="center">2489</td>
+    <td align="center">0</td>
+        <td align="center">Куду/ Индиго ПРО / Цифровые коммуникации<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=176&amp;action=naklad&amp;number=581054&amp;2949682160789417" target="_blank">182625</a> (Щк,Юи,Гз,Вд,Кн,Мн,Тг,Рд,Ад,Сн,Са,Ба,Ка,Ка) | </i></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Каримов Илья</td>  
+    <td align="center">11.10.2016  17:48:08</td>
+    <td align="center">+3 (13+0)</td>    	    <td align="center">2339</td>    
+    <td align="center">2428</td>
+	    <td align="center">2534</td>
+    <td align="center">0</td>
+        <td align="center">Куду/ Индиго ПРО / Цифровые коммуникации<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=176&amp;action=naklad&amp;number=578247&amp;1452142160709090" target="_blank">182421</a> (Щк,Юи,Гз,Вд,Кн,Мн,Тг,Рд,Ад,Сн,Са,Ба,Ка,Ка) | </i></td></tr>
+     
+    <!--<td align="center">
+     кол-во    </td>--> 
+  <tr bgcolor="#FAFAFA">
+    <td align="center">Медведева Вероника</td>  
+    <td align="center">11.10.2016  16:02:14</td>
+    <td align="center">-1 (13+0)</td>    	    <td align="center"></td>    
+    <td align="center">-</td>
+	    <td align="center">-</td>
+    <td align="center">-</td>
+        <td align="center"></td></tr>
+     
+    <!--<td align="center">
+         </td>--> 
+  <tr bgcolor="#FEFEFE">
+    <td align="center">Телепченков Владимир</td>  
+    <td align="center">27.09.2016  19:18:41</td>
+    <td align="center">+25 (5+1)</td>    	    <td align="center">2450</td>    
+    <td align="center">2448</td>
+	    <td align="center">2465</td>
+    <td align="center">0</td>
+        <td align="center">Олди /Вектрум-К на долго<br><i>Накладная: <a href="/monitor/?menu=suppliers&amp;post=1571&amp;action=naklad&amp;number=572624&amp;1701802160223541" target="_blank">27092016/1</a> (Кн,Ка,Св,Тс,Ра,Га,Уд,Гз,Нв,Па,Тю,Ад,Км,Ка,Сн,Са,Ха,Тг,Ка,Рд,Вд,Ба,Ка,Сн) | </i></td></tr>
+</tbody></table>
+
+
+</body></html>
