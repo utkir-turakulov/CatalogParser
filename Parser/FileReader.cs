@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
+﻿using System.IO;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Parser
 {
@@ -11,8 +7,7 @@ namespace Parser
     {
         public string GetLines(string path)
         {
-			// List<string> lines = new List<string>();
-			StringBuilder builder = new StringBuilder();
+            StringBuilder builder = new StringBuilder();
 
             using (StreamReader reader = new StreamReader(path))
             {
@@ -25,6 +20,5 @@ namespace Parser
             }
             return builder.ToString();
         }
-
     }
 }
