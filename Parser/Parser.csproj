@@ -76,6 +76,7 @@
     </Compile>
     <Compile Include="Catalog.cs" />
     <Compile Include="FileReader.cs" />
+    <Compile Include="Parser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -104,6 +105,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="pages\test.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
